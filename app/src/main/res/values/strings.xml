@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Psy</string>
+    <string name="phone">Wpisz swój numer telefonu</string>
+    <string name="kodcd">Wpisz uzyskany kod weryfikacyjny</string>
+    <string name="kod">Wyślij kod weryfikacyny </string>
+    <string name="kod2">Wyślij kod weryfikacyny ponownie </string>
+    <string name="zaloguj">Zaloguj </string>
+    <string name="tel">Wpisz poprawny numer </string>
+    <string name="telkod">Wpisz kod </string>
+
+</resources>

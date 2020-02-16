@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "464729198041",
+    "firebase_url": "https://psyfirebaseproject.firebaseio.com",
+    "project_id": "psyfirebaseproject",
+    "storage_bucket": "psyfirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464729198041:android:0283719072ecd148699dc8",
+        "android_client_info": {
+          "package_name": "com.example.psy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464729198041-ikm1kujctlf0btlvs3cmbcpn7tj82q9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.psy",
+            "certificate_hash": "f309512d6eac7942632cc22726300193ecf935b4"
+          }
+        },
+        {
+          "client_id": "464729198041-6i723p6mkbkt6c44cmca4tk63pqvl7k3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhq6AnuEYcGUUt1LgqNPZk5Ewoz8WIqbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464729198041-6i723p6mkbkt6c44cmca4tk63pqvl7k3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
