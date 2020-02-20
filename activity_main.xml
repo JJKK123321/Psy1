@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="111dp"
+        android:layout_height="102dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/pies1" />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+    <Button
+        android:id="@+id/buttonkod"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/kod"
+        android:background="@color/blue2"/>
+
+    <EditText
+        android:id="@+id/editkod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:inputType="numberPassword"
+        android:hint="@string/kodcd"
+        android:visibility="invisible"/>
+    <Button
+        android:id="@+id/buttonzaloguj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/zaloguj"
+        android:background="@color/blue2"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"
+        android:enabled="false"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    >
+    <Button
+        android:id="@+id/buttonkodcd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/blue2"
+        android:enabled="false"
+        android:text="@string/kod2"
+        android:textSize="10dp"
+        android:visibility="invisible"
+        android:layout_gravity="bottom"
+
+
+
+
+        />
+</LinearLayout>
+
+</LinearLayout>
